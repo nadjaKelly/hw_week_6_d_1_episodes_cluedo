@@ -10,12 +10,10 @@ const declareAllSuspects = function() {
   return `The suspects are ${suspectOne}, ${suspectTwo}, ${suspectThree}.`;
 }
 
-suspectThree = 'Mr. Something';
-
 const suspects = declareAllSuspects();
 console.log(suspects);
 
 console.log(`Suspect three is ${suspectThree}.`);
 
-//the const function declareAllSuspects changed suspectThree to Colonel Mustard.
+//the const function declareAllSuspects changed the new variable suspectThree to Colonel Mustard.
 //the let variable suspectThree is not affected and stays Mrs Peacock.

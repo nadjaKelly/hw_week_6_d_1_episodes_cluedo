@@ -21,7 +21,14 @@ const declareMurderer = function () {
 changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
+
+//changeMurderer function is callechanges murderer from Colonel Mustard to Mr Green.
+//then plotTwist is called and changes murderer to Mrs White.
+//variable verdict gets info
+
+
+
 //murderer is originally Colonel Mustard. then it gets changed with the nested unnamed function with const plotTwist
 // to Mrs White. The unnamed function with the const declareMurderer is just returning Mrs White.
 //change Murderer unnamed function is executed. const variable verdict gets the declareMurderer function  and is loged out
-//with Mrs White. 
+//with Mrs White.
